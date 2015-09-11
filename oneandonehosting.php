@@ -58,20 +58,9 @@ class OneAndOneHosting extends Module
 	{
 		if (strcmp(Tools::getValue('configure'), $this->name) === 0)
 		{
-			if (version_compare(_PS_VERSION_, '1.5', '>') == true)
-			{
-				$this->context->controller->addCSS($this->_path.'views/css/configure.css');
-
-				if (version_compare(_PS_VERSION_, '1.6', '<') == true)
-					$this->context->controller->addCSS($this->_path.'views/css/configure-nobootstrap.css');
-			}
-			else
-			{
-				$html = '<link rel="stylesheet" href="'.$this->_path.'views/css/configure.css" type="text/css" />';
-				$html .= '<link rel="stylesheet" href="'.$this->_path.'views/css/configure-nobootstrap.css" type="text/css" />';
-
-				return $html;
-			}
+			$this->context->controller->addCSS($this->_path.'views/css/configure.css');
+			if (version_compare(_PS_VERSION_, '1.6', '<') == true)
+				$this->context->controller->addCSS($this->_path.'views/css/configure-nobootstrap.css');
 		}
 	}
 
