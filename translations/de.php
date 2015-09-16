@@ -13,4 +13,5 @@ $_MODULE['<{oneandonehosting}prestashop>configure_4395a11be5f0fa92cfb7793e3e4286
 $_MODULE['<{oneandonehosting}prestashop>configure_a31d35aa602275770dce05334782d1fe'] = '1 Domain inklusive (.de, .com, .net, .org, .biz, .name, .eu, .at)';
 $_MODULE['<{oneandonehosting}prestashop>configure_5b658df0038f6d910830b34d50f9a8d1'] = 'Unlimited Webspace';
 $_MODULE['<{oneandonehosting}prestashop>configure_02cfa0b9bf7ad7bcef7a0a48d65d4e45'] = 'Unlimited Webseiten';
+$_MODULE['<{oneandonehosting}prestashop>configure_999ea45b082613f0933dd9dd69b954bd'] = 'http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=55';
 $_MODULE['<{oneandonehosting}prestashop>configure_6c3e96dfe7f8c0e043e4f479874d8b1f'] = 'Erstellen Sie ein Konto auf 1&1 ';
