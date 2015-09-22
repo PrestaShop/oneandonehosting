@@ -1,5 +1,6 @@
 <?php
-/**
+
+/*
 * 2007-2015 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -24,8 +25,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-if (!defined('_PS_VERSION_'))
+if (!defined('_PS_VERSION_')) {
 	exit;
+}
 
 class OneAndOneHosting extends Module
 {
@@ -45,8 +47,9 @@ class OneAndOneHosting extends Module
 		$this->displayName = $this->l('1and1 Hosting');
 		$this->description = $this->l('PrestaShop Installed & hosted in minutes.');
 
-		if (_PS_VERSION_ < '1.5')
+		if (_PS_VERSION_ < '1.5') {
 			require(_PS_MODULE_DIR_.$this->name.'/backward_compatibility/backward.php');
+		}
 	}
 
 	public function install()
@@ -56,21 +59,10 @@ class OneAndOneHosting extends Module
 
 	public function hookBackOfficeHeader()
 	{
-		if (strcmp(Tools::getValue('configure'), $this->name) === 0)
-		{
-			if (version_compare(_PS_VERSION_, '1.5', '>') == true)
-			{
-				$this->context->controller->addCSS($this->_path.'views/css/configure.css');
-
-				if (version_compare(_PS_VERSION_, '1.6', '<') == true)
-					$this->context->controller->addCSS($this->_path.'views/css/configure-nobootstrap.css');
-			}
-			else
-			{
-				$html = '<link rel="stylesheet" href="'.$this->_path.'views/css/configure.css" type="text/css" />';
-				$html .= '<link rel="stylesheet" href="'.$this->_path.'views/css/configure-nobootstrap.css" type="text/css" />';
-
-				return $html;
+		if (strcmp(Tools::getValue('configure'), $this->name) === 0) {
+			$this->context->controller->addCSS($this->_path.'views/css/configure.css');
+			if (version_compare(_PS_VERSION_, '1.6', '<') == true) {
+				$this->context->controller->addCSS($this->_path.'views/css/configure-nobootstrap.css');
 			}
 		}
 	}
