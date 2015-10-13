@@ -55,9 +55,7 @@
 
 				<p class="text-center">
 					<strong>
-						<a href="{l s='http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=55' mod='oneandonehosting'}" target="_blank" title="Start now with 1&1">
-							{l s='Create an account on 1&1' mod='oneandonehosting' }
-						</a>
+						<a href='{$landing_page|escape:htmlall}' target="_blank" class="btn btn-primary" id="create-account-btn">{l s='Create an account on 1&1' mod='oneandonehosting' }</a>
 					</strong>
 				</p>
 			</div>

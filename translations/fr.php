@@ -13,5 +13,4 @@ $_MODULE['<{oneandonehosting}prestashop>configure_4395a11be5f0fa92cfb7793e3e4286
 $_MODULE['<{oneandonehosting}prestashop>configure_a31d35aa602275770dce05334782d1fe'] = '1 nom de domaine gratuit';
 $_MODULE['<{oneandonehosting}prestashop>configure_5b658df0038f6d910830b34d50f9a8d1'] = 'Espace disque illimité';
 $_MODULE['<{oneandonehosting}prestashop>configure_02cfa0b9bf7ad7bcef7a0a48d65d4e45'] = 'Sites web illimités';
-$_MODULE['<{oneandonehosting}prestashop>configure_999ea45b082613f0933dd9dd69b954bd'] = 'http://clic.reussissonsensemble.fr/click.asp?ref=701368&site=4320&type=text&tnb=125';
 $_MODULE['<{oneandonehosting}prestashop>configure_6c3e96dfe7f8c0e043e4f479874d8b1f'] = 'Créer un compte sur 1&1';
