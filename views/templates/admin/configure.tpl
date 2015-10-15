@@ -55,7 +55,7 @@
 
 				<p class="text-center">
 					<strong>
-						<a href='{$landing_page|escape:htmlall}' target="_blank" class="btn btn-primary" id="create-account-btn">{l s='Create an account on 1&1' mod='oneandonehosting' }</a>
+						<a href="{$landing_page|escape:'htmlall':'UTF-8'}" target="_blank" class="btn btn-primary" id="create-account-btn">{l s='Create an account on 1&1' mod='oneandonehosting' }</a>
 					</strong>
 				</p>
 			</div>
