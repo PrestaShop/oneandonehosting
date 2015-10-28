@@ -13,5 +13,4 @@ $_MODULE['<{oneandonehosting}prestashop>configure_4395a11be5f0fa92cfb7793e3e4286
 $_MODULE['<{oneandonehosting}prestashop>configure_a31d35aa602275770dce05334782d1fe'] = '1 dominio incluido. Elige entre .es, .com, .net, .org, .biz, .name o .eu';
 $_MODULE['<{oneandonehosting}prestashop>configure_5b658df0038f6d910830b34d50f9a8d1'] = 'Espacio web ilimitado';
 $_MODULE['<{oneandonehosting}prestashop>configure_02cfa0b9bf7ad7bcef7a0a48d65d4e45'] = 'Sites Web illimités';
-$_MODULE['<{oneandonehosting}prestashop>configure_999ea45b082613f0933dd9dd69b954bd'] = 'http://web.epartner.es/click.asp?ref=676625&site=5327&type=text&tnb=20';
 $_MODULE['<{oneandonehosting}prestashop>configure_6c3e96dfe7f8c0e043e4f479874d8b1f'] = 'Crea una cuenta en  1&1';

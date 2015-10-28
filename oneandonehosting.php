@@ -77,8 +77,28 @@ class OneAndOneHosting extends Module
 
 	public function getContent()
 	{
+		switch (Tools::strtolower($this->context->country->iso_code))
+		{
+			case 'fr':
+				$landing_page = 'http://clic.reussissonsensemble.fr/click.asp?ref=701368&site=4320&type=text&tnb=125';
+				break;
+			case 'es':
+				$landing_page = 'http://web.epartner.es/click.asp?ref=676625&site=5327&type=text&tnb=20';
+				break;
+			case 'de':
+			case 'at':
+				$landing_page = 'http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=55';
+				break;
+			case 'pl':
+				$landing_page = 'http://clk.tradedoubler.com/click?p=199398&a=2437674&g=19588792';
+				break;
+			default:
+				$landing_page = 'http://being.successfultogether.co.uk/click.asp?ref=657157&site=3759&type=text&tnb=32';
+		}
+
 		$this->context->smarty->assign(array(
 			'module_dir' => $this->_path,
+			'landing_page' => $landing_page,
 		));
 
 		return $this->display(__FILE__, 'views/templates/admin/configure.tpl');
