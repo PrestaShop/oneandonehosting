@@ -78,24 +78,38 @@ class OneAndOneHosting extends Module
 	public function getContent()
 	{
 		switch (Tools::strtolower($this->context->country->iso_code))
-		{
+		{			
+			case 'ca':
+				$landing_page = 'https://www.awin1.com/awclick.php?mid=4876&id=253683';
+				break;
+			case 'uk':
+				$landing_page = 'http://being.successfultogether.co.uk/click.asp?ref=657157&site=3759&type=text&tnb=32&diurl=https://www.1and1.co.uk/hosting';
+				break;
 			case 'fr':
 				$landing_page = 'http://clic.reussissonsensemble.fr/click.asp?ref=701368&site=4320&type=text&tnb=125';
 				break;
 			case 'es':
 				$landing_page = 'http://web.epartner.es/click.asp?ref=676625&site=5327&type=text&tnb=20';
 				break;
+			case 'mx':
+				$landing_page = 'https://www.awin1.com/awclick.php?mid=5520&id=253683';
+				break;
 			case 'de':
 			case 'at':
-				$landing_page = 'http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=55';
+				$landing_page = 'http://hosting.1und1.de/webhosting-prestashop?ac=OM.PU.PUi80K244477T7073a&ref=657154';
+				break;
+			case 'it':
+				$landing_page = 'https://clk.tradedoubler.com/click?p=219515&a=2308094&g=21125858';
 				break;
 			case 'pl':
-				$landing_page = 'http://clk.tradedoubler.com/click?p=199398&a=2437674&g=19588792';
+				$landing_page = 'http://clk.tradedoubler.com/click?p=199398&a=2437674&g=19589768';
+				break;
+			case 'nl':
+				$landing_page = 'http://www.tkqlhce.com/click-7873503-10384882-1380319321000';
 				break;
 			default:
-				$landing_page = 'http://being.successfultogether.co.uk/click.asp?ref=657157&site=3759&type=text&tnb=32';
+				$landing_page = 'http://www.tkqlhce.com/click-7873503-10384882-1380319321000';
 		}
-
 		$this->context->smarty->assign(array(
 			'module_dir' => $this->_path,
 			'landing_page' => $landing_page,
