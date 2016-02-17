@@ -45,6 +45,7 @@
 .moduleconfig-header.row,
 .moduleconfig-content > .row {
 	background-color: white;
+	max-width: 100%;
 }
 
 .moduleconfig-content a {
@@ -81,4 +82,9 @@
 
 .text-center {
 	text-align: center;
+}
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: block;
 }

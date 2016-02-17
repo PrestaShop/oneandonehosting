@@ -29,7 +29,7 @@
 			<img src="{$module_dir|escape:'html':'UTF-8'}views/img/oneandone.png" />
 		</div>
 		<div class="col-xs-7 text-left">
-			<h4>{l s='PrestaShop Official hosting partner' mod='oneandonehosting'}</h4>
+			<br /><br /><h4>{l s='PrestaShop Official hosting partner' mod='oneandonehosting'}</h4>
 		</div>
 	</div>
 
@@ -37,7 +37,7 @@
 
 	<div class="moduleconfig-content">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-7 text-left">
 				<p>
 					<h4><strong>{l s='To install PrestaShop click on "Create an account on 1&1", choose Linux Unlimited , Unlimited Plus or Unlimited Pro. Then go on the 1&1 App Center, select "Click & Build" and look for PrestaShop' mod='oneandonehosting'}</strong></h4>
 					<ul class="ul-spaced">
@@ -50,15 +50,17 @@
 						<li>{l s='Unlimited Websites' mod='oneandonehosting'}</li>
 					</ul>
 				</p>
-
+			</div>
+			<div class="col-xs-5 text-right">
+			<img class="img-responsive" src="{$module_dir|escape:'html':'UTF-8'}views/img/{$screenshot}.png" />
+			</div>
+		</div>
 				<br />
-
 				<p class="text-center">
 					<strong>
 						<a href="{$landing_page|escape:'htmlall':'UTF-8'}" target="_blank" class="btn btn-primary" id="create-account-btn">{l s='Create an account on 1&1' mod='oneandonehosting' }</a>
 					</strong>
 				</p>
 			</div>
-		</div>
 	</div>
 </div>
