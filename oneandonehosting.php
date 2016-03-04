@@ -79,11 +79,11 @@ class OneAndOneHosting extends Module
 		switch (Tools::strtolower($this->context->country->iso_code))
 		{			
 			case 'ca':
-				$landing_page = 'https://www.awin1.com/awclick.php?mid=4876&id=253683';
+				$landing_page = 'http://www.awin1.com/cread.php?awinaffid=253683&awinmid=4876&p=http%3A%2F%2Fwww.1and1.ca%2Fprestashop-hosting';
 				$screenshot = 'EN';
 				break;
 			case 'uk':
-				$landing_page = 'http://being.successfultogether.co.uk/click.asp?ref=657157&site=3759&type=text&tnb=32&diurl=https://www.1and1.co.uk/hosting';
+				$landing_page = 'http://being.successfultogether.co.uk/click.asp?ref=657157&site=3759&type=text&tnb=91';
 				$screenshot = 'EN';
 				break;
 			case 'fr':
@@ -91,24 +91,26 @@ class OneAndOneHosting extends Module
 				$screenshot = 'FR';
 				break;
 			case 'es':
-				$landing_page = 'http://web.epartner.es/click.asp?ref=676625&site=5327&type=text&tnb=20';
+				$landing_page = 'http://web.epartner.es/click.asp?ref=676625&site=5327&type=text&tnb=50';
 				$screenshot = 'ES';
 				break;
 			case 'mx':
-				$landing_page = 'http://www.awin1.com/cread.php?awinaffid=253683&awinmid=5520&p=https%3A%2F%2Fwww.1and1.mx%2Fweb-hosting';
+				$landing_page = 'http://www.awin1.com/cread.php?awinaffid=253683&awinmid=5520&p=https%3A%2F%2Fwww.1and1.mx%2Fprestashop-hosting';
 				$screenshot = 'ES';
 				break;
 			case 'de':
+				$landing_page = 'http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=55';
+				$screenshot = 'DE';
 			case 'at':
-				$landing_page = 'http://hosting.1und1.de/webhosting-prestashop?ac=OM.PU.PUi80K244477T7073a&ref=657154';
+				$landing_page = 'http://partners.webmasterplan.com/click.asp?ref=657154&site=12688&type=text&tnb=56';
 				$screenshot = 'DE';
 				break;
 			case 'it':
-				$landing_page = 'https://clk.tradedoubler.com/click?p=219515&a=2308094&g=21125858';
+				$landing_page = 'https://clk.tradedoubler.com/click?p=219515&a=2308094&g=23112452';
 				$screenshot = 'IT';
 				break;
 			case 'pl':
-				$landing_page = 'http://clk.tradedoubler.com/click?p=199398&a=2437674&g=19589768';
+				$landing_page = 'http://www.anrdoezrs.net/click-7873503-12490601-1454337602000';
 				$screenshot = 'PL';
 				break;
 			default:
