@@ -35,7 +35,7 @@ class OneAndOneHosting extends Module
 	{
 		$this->name = 'oneandonehosting';
 		$this->tab = 'others';
-		$this->version = '1.0.2';
+		$this->version = '1.0.3';
 		$this->author = 'PrestaShop';
 
 		$this->bootstrap = true;
