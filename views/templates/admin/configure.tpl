@@ -52,7 +52,7 @@
 				</p>
 			</div>
 			<div class="col-xs-5 text-right">
-			<img class="img-responsive" src="{$module_dir|escape:'htmlall':'UTF-8'}views/img/{$screenshot}.png" />
+			<img class="img-responsive" src="{$module_dir|escape:'htmlall':'UTF-8'}views/img/{$screenshot|escape:'htmlall':'UTF-8'}.png" />
 			</div>
 		</div>
 				<br />
