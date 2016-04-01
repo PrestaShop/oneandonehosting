@@ -110,7 +110,7 @@ class OneAndOneHosting extends Module
 				$screenshot = 'IT';
 				break;
 			case 'pl':
-				$landing_page = 'http://www.anrdoezrs.net/click-7873503-12490601-1454337602000';
+				$landing_page = 'http://clk.tradedoubler.com/click?p=199398&a=2437674&g=19589768';
 				$screenshot = 'PL';
 				break;
 			default:
